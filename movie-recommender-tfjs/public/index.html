@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Recommender TFJS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="app">
+      <section class="panel">
+        <div>
+          <p class="eyebrow">TensorFlow.js + MovieLens</p>
+          <h1>Movie Recommender</h1>
+        </div>
+
+        <form id="recommendation-form" class="form">
+          <label for="userId">User ID</label>
+          <div class="controls">
+            <input id="userId" name="userId" type="number" min="1" value="1" required />
+            <button type="submit">Recommend</button>
+          </div>
+        </form>
+
+        <p id="status" class="status"></p>
+        <ul id="recommendations" class="recommendations"></ul>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
