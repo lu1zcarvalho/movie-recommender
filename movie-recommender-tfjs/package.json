@@ -1,0 +1,25 @@
+{
+  "name": "movie-recommender-tfjs",
+  "version": "1.0.0",
+  "description": "Projeto de estudos: recomendador simples de filmes com TensorFlow.js e MovieLens Latest Small.",
+  "main": "src/server.js",
+  "scripts": {
+    "download": "node src/downloadData.js",
+    "train": "node src/trainModel.js",
+    "start": "node src/server.js"
+  },
+  "keywords": [
+    "tensorflowjs",
+    "recommendation-system",
+    "movielens",
+    "express"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.22.0",
+    "adm-zip": "^0.5.16",
+    "csv-parser": "^3.2.0",
+    "express": "^4.21.2"
+  }
+}

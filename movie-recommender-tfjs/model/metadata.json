@@ -1,0 +1,8 @@
+{
+  "modelType": "normalized_user_movie_dense",
+  "maxUserId": 610,
+  "maxMovieId": 193609,
+  "ratingsCount": 100836,
+  "moviesCount": 9742,
+  "trainedAt": "2026-04-28T22:50:04.274Z"
+}
